@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * string_rev - prints a string in reverse
+ * rev_string - prints a string in reverse
  * @s: the string to be tested
  * Return: Reversed string
  */
 
-void string_rev(char *s)
+void rev_string(char *s)
 {
 	char reverse = s[0];
 	int counter = 0;
