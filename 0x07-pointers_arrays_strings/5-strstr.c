@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * _strstr - locates a substring in another string
  * @haystack: main string
@@ -14,7 +13,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		char *a = haystack;
 		char *b = needle;
-		
+
 		while (*a == *b && *b != '\0')
 		{
 			a++;
