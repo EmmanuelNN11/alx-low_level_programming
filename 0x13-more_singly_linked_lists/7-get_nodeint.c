@@ -3,7 +3,7 @@
 #include"lists.h"
 
 /**
- * get_nodeint_at _index - returns the nth node in a list
+ * get_nodeint_at_index - returns the nth node in a list
  * @head: first node
  * @index: index of the list
  * Return: nth node
