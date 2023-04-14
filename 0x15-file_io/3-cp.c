@@ -22,7 +22,7 @@ void check_status(int status, int descriptor, char *filename, char gate)
 	else if (gate == 'O' && status == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", filename);
-		esxit(98);
+		exit(98);
 	}
 
 	else if (gate == 'W' && status == -1)
@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
 	check_status(close_src, src, NULL, 'C');
 	close_dest = close(dest);
 	check_status(close_dest, dest, NULL, 'C');
-	
+
 	return (0);
 }
 
