@@ -28,7 +28,7 @@ void print_error_exit(int error_code, const char *error_message)
 
 int main(int argc, char **argv)
 {
-	int file_from, file_to;
+	nt file_from, file_to;
 	ssize_t displayed, written;
 	char buf[BUFFER_SIZE];
 
